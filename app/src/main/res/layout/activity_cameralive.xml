@@ -9,22 +9,23 @@
 
     <TextureView
         android:id="@+id/camera_view"
-        android:layout_width="423dp"
-        android:layout_height="624dp"
+        android:layout_width="410dp"
+        android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/result_viewlive"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:gravity="left"
-        android:textSize="20sp"
-        android:paddingTop="20px"
-        android:paddingLeft="20px"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="58dp"
         android:background="@color/grey"
+        android:gravity="left"
+        android:paddingLeft="20px"
+        android:paddingTop="20px"
         android:textColor="@color/orange"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
